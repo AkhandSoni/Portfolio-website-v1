@@ -1,0 +1,287 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  background: #0F172A;
+  scroll-behavior: smooth;
+}
+
+.container{
+  min-height: 100vh;
+  width: 100%;
+  background: #F0FBFF;
+  border: 15px solid #0F172A;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  padding-top: 90px;
+  padding-right: 20vb;
+  padding-left: 20vb;
+}
+
+.navbar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background: #1E40AF;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 0 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+}
+
+.webname{
+  font-size: 5rem;
+  color: white;
+}
+
+.nav{
+  display: flex;
+  gap: 40px;
+}
+
+.navs{
+  text-decoration: none;
+  color: white;
+  font-family: 'Dancing Script', cursive;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.navs:hover{
+  color: #67E8F9;
+}
+
+.port_hr{
+  clear: both;
+  width: 100px;
+  margin: 10px auto;
+  border: none;
+  border-top: 5px dotted rgb(30, 64, 175);
+}
+
+.section_text h1{
+   font-size: 4rem;
+   font-weight: 700;
+}
+
+.section_text h2{
+   font-size: 1.5rem;
+   font-weight: 500;
+}
+
+.section_text p{
+   font-size: 1rem;
+   font-weight: 400;
+}
+
+.hero_content{
+  margin-top: 5vh;
+}
+
+#me{
+  float: left;
+  height: 35vh;
+  margin-left: 10vb;
+  margin-right: 15vb;
+  border-radius: 50%;
+  box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.8);
+}
+
+#hero_text{
+  font-size: 1.5rem;
+  margin-top: 5vh;
+}
+
+.about_content{
+  clear: both;
+  margin: 5vh;
+}
+
+#about_img img{
+  float: right;
+  height: 35vh;
+  margin-left: 10vb;
+}
+
+.skill_content{
+  clear: both;
+  margin: 5vh;
+}
+
+#skill_img img{
+  float: left;
+  height: 35vh;
+  margin-right: 10vb;
+}
+
+.contacts_content{
+  clear: both;
+  margin: 5vh;
+}
+
+#contact_img img{
+  float: right;
+  height: 35vh;
+  margin-right: 10vb;
+}
+
+footer{
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+#menu_toggle{
+  display: none;
+}
+
+.menu_icon{
+  display: none;
+}
+
+@media(max-width:768px){
+
+  .container{
+    padding-left: 5vw;
+    padding-right: 5vw;
+    border-width: 8px;
+  }
+
+  .navbar{
+    height: 70px;
+    padding: 0 20px;
+  }
+
+  .webname{
+    font-size: 2.5rem;
+  }
+
+  .menu_icon{
+    display: block;
+    cursor: pointer;
+    z-index: 1002;
+  }
+
+  .menu_icon img{
+    height: 30px;
+    transition: transform 0.4s ease;
+  }
+
+  #menu_toggle:checked + .menu_icon img{
+    transform: rotate(180deg);
+  }
+
+  .nav{
+    position: absolute;
+    top: 70px;
+    right: 0;
+    width: 100%;
+
+    background: rgba(30,64,175,0.95);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+
+    border-radius: 20px;
+
+    overflow: hidden;
+
+    max-height: 0;
+
+    transition: max-height 0.4s ease;
+
+    z-index: 1001;
+
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  }
+
+  #menu_toggle:checked ~ .nav{
+    max-height: 500px;
+  }
+
+  .navs{
+    width: 100%;
+    text-align: center;
+    padding: 12px 0;
+    border-top: 1px solid rgba(255,255,255,0.5);
+    font-size: 1.2rem;
+  }
+
+  .navs:first-child{
+    border-top: none;
+  }
+
+  .hero_content,
+  .about_content,
+  .skill_content,
+  .contacts_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 2vh 0;
+  }
+
+  #me,
+  #about_img img,
+  #skill_img img,
+  #contact_img img{
+    float: none;
+    display: block;
+    height: 25vh;
+    margin: 0 auto 30px auto;
+  }
+
+  .section_text h1{
+    font-size: 2.5rem;
+    line-height: 1.2;
+  }
+
+  .section_text h2{
+    font-size: 1.1rem;
+    margin-top: 15px;
+    line-height: 1.5;
+  }
+
+  .section_text p{
+    font-size: 0.95rem;
+    line-height: 1.8;
+    margin-top: 15px;
+  }
+
+  .section_text ul{
+    margin-top: 15px;
+  }
+
+  .section_text li{
+    font-size: 0.95rem;
+    line-height: 1.8;
+    list-style-position: inside;
+  }
+
+  .port_hr{
+    width: 70px;
+    margin: 30px auto;
+  }
+
+  footer{
+    padding: 20px;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+}
