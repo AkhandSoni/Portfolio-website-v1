@@ -1,105 +1,36 @@
-# Akhand.Dev 🚀
+# Hey, I'm Akhand 👋
 
-A funny and creative portfolio website built using HTML and CSS.  
-This project combines modern UI design, responsive layouts and developer humor into a single-page portfolio experience.
-
----
-
-## 🌟 Features
-
-- Responsive design for desktop and mobile
-- Animated mobile navbar
-- Smooth scrolling
-- Floating image layouts
-- Funny developer-themed content
-- Clean cyan-blue color palette
-- Rounded modern UI
-- Interactive mobile dropdown menu
-- Custom cursive branding
-
----
-
-## 🛠️ Built With
-
-- HTML5
-- CSS3
-- Flexbox
-- Float layouts
-- Media Queries
-- Google Fonts
-
----
-
-## 📱 Mobile Features
-
-- Expandable dropdown navbar
-- Rotating arrow animation
-- Fully responsive sections
-- Optimized typography and spacing
-
----
-
-## 🎨 Theme
-
-This portfolio follows a:
-- Cyan/Blue modern tech aesthetic
-- Funny developer vibe
-- AI/ML + Web Development inspired style
-
----
-
-## 📂 Sections
-
-- Hero Section
-- About Me
-- Skills
-- Contact
-- Footer
-
----
-
-## 😄 Fun Elements
-
-- “Professional Bug Creator”
-- AI/ML themed jokes
-- Debugging humor
-- Caffeine-powered footer lines
-
----
-
-## 📸 Assets Used
-
-- Google Fonts
-- Custom PNG illustrations
-- GIFs and icons
-
----
-
-## 🚀 Future Improvements
-
-- Add JavaScript animations
-- Project showcase cards
-- Dark/light mode toggle
-- AI-themed animations
-- Typing text effects
-
----
-
-## 👨‍💻 Author
-
-### Akhand Soni
-
-First year Software Engineering student exploring:
+A first year Software Engineering student exploring the world of:
 - AI/ML
 - Web Development
 - UI Design
 - Programming
 
+I enjoy building creative and fun projects that mix clean UI, modern design and a little developer humor.
+
+Currently learning:
+- Frontend Development
+- Responsive Design
+- JavaScript
+- Backend Basics
+- Git & GitHub
+
+I like creating projects that are not just functional but also visually interesting and enjoyable to use.
+
+## Things I Love
+- Building cool interfaces
+- Exploring AI tools
+- Open Source projects
+- Developer memes
+- Late night coding sessions
+- Turning random ideas into projects
+
+## Current Goal
+Improving my development skills by consistently building projects and experimenting with new technologies.
+
+## Fun Fact
+I can spend hours fixing a bug and then realize I missed a semicolon.
+
 ---
 
-## ⚠️ Disclaimer
-
-This website may contain:
-- Bugs
-- Poor life decisions
-- Excessive caffeine energy
+“Powered by curiosity, caffeine and questionable debugging decisions.”
