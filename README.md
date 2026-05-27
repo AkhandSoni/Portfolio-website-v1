@@ -28,9 +28,6 @@ I like creating projects that are not just functional but also visually interest
 ## Current Goal
 Improving my development skills by consistently building projects and experimenting with new technologies.
 
-## Fun Fact
-I can spend hours fixing a bug and then realize I missed a semicolon.
-
 ---
 
 “Powered by curiosity, caffeine and questionable debugging decisions.”
